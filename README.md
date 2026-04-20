@@ -1,4 +1,4 @@
-# AI/ML Engineering Internship Tasks
+# AI/ML Engineering Tasks
 
 ## Task 1: Exploring and Visualizing a Simple Dataset
 
