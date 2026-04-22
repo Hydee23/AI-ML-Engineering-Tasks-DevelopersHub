@@ -70,3 +70,28 @@ Forecast the next-day closing price of a selected equity (AAPL) using historical
 
 ## 4️⃣ Task 4: General Health Query Chatbot (Prompt Engineering Based)
 
+### Objective
+
+Build a conversational AI agent using Prompt Engineering to handle general health inquiries while strictly enforcing medical safety guardrails and API token constraints.
+
+### Architecture
+
+* **LLM Engine:** OpenAI API (gpt-3.5-turbo).
+* **Core Logic:** Python CLI with stateful context management.
+
+###Execution
+
+* **Prompt Design:** Built a medical persona with strict negative constraints (no diagnosing or prescribing).
+* **Memory Management:** Engineered a 10-message **"Sliding Window"** to preserve multi-turn context while mathematically preventing API token overflow.
+* **Safety Guardrails:** Embedded routing logic to detect crisis triggers and redirect to human professionals.
+
+###Key Insights
+
+* **Negative Constraints:** Explicitly programming what the model cannot do is the primary defense for medical AI liability.
+* **Token Stability:** Infinite memory loops eventually crash APIs; a sliding window is mandatory for production-safe conversational state.
+
+### Tech Stack
+
+* Python
+* OpenAI API
+* Prompt Engineering & Context Management
