@@ -81,8 +81,8 @@ Build a conversational AI agent using Prompt Engineering to handle general healt
 
 ### Execution
 
-* **Prompt Design:** Built a medical persona with strict negative constraints (no diagnosing or prescribing).
-* **Memory Management:** Engineered a 10-message **"Sliding Window"** to preserve multi-turn context while mathematically preventing API token overflow.
+* **Prompt Design:** Structured the system prompt using Role, Task, Constraint, and Format **(RTCF)** parameters to establish a safe medical persona. (no diagnosing or prescribing)
+* **Memory Management:** Engineered a 10-message "Sliding Window" to preserve multi-turn context while mathematically preventing API token overflow.
 * **Safety Guardrails:** Embedded routing logic to detect crisis triggers and redirect to human professionals.
 
 ### Key Insights
@@ -94,4 +94,4 @@ Build a conversational AI agent using Prompt Engineering to handle general healt
 
 * Python
 * OpenAI API
-* Prompt Engineering & Context Management
+* Prompt Engineering (RTCF Framework)
