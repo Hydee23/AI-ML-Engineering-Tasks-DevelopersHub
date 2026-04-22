@@ -22,6 +22,10 @@ Perform foundational data inspection and statistical visualization to map featur
 * **Data Profiling:** Validated dimensionality and zero null values using Pandas.
 * **Visualization:** Mapped correlations via Pair plots and detected IQR outliers via Box plots.
 
+### Result
+
+**RMSE:** $2.74 (model's average prediction error per day)
+
 ### Key Insights
 1.  Strong linear correlation exists between Petal Length and Petal Width.
 2.  **Iris setosa** is linearly separable; **versicolor** and **virginica** share overlapping feature boundaries.
