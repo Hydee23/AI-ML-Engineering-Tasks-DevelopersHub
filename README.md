@@ -32,6 +32,7 @@ Perform foundational data inspection and statistical visualization to map featur
 * MatplotLib
 * Seaborn
 
+
 ## Task 2: Predict Future Stock Prices (Short-Term)
 
 ### Objective
