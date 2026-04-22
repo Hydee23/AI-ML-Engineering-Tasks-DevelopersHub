@@ -67,3 +67,6 @@ Forecast the next-day closing price of a selected equity (AAPL) using historical
 * Scikit-Learn (Random Forest Regressor)
 * Matplotlib
 * yfinance (Data API)
+
+## 4️⃣ Task 4: General Health Query Chatbot (Prompt Engineering Based)
+
