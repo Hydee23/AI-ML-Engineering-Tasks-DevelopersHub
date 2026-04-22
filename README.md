@@ -6,6 +6,17 @@
 
 Perform foundational data inspection and statistical visualization to map feature distributions before predictive modeling.
 
+### Dataset
+
+* Iris Dataset (Loaded via Seaborn)
+
+* Contains botanical attributes for classifying three distinct Iris species. Features include:
+
+**Sepal Length (cm)
+**Sepal Width (cm)
+**Petal Length (cm)
+**Petal Width (cm)
+
 ### Execution
 
 * **Data Profiling:** Validated dimensionality and zero null values using Pandas.
