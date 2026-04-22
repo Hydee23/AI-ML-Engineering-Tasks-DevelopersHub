@@ -1,6 +1,6 @@
 # AI/ML Engineering Tasks
 
-## Task 1: Exploring and Visualizing a Simple Dataset
+## 1️⃣ Task 1: Exploring and Visualizing a Simple Dataset
 
 ### Objective
 
@@ -33,7 +33,7 @@ Perform foundational data inspection and statistical visualization to map featur
 * Seaborn
 
 
-## Task 2: Predict Future Stock Prices (Short-Term)
+## 2️⃣ Task 2: Predict Future Stock Prices (Short-Term)
 
 ### Objective
 
