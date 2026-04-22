@@ -56,7 +56,7 @@ Forecast the next-day closing price of a selected equity (AAPL) using historical
 1. Framing the target as percentage returns rather than absolute prices provides a mathematically sound, stationary target.
 2. Chronological data splitting is mandatory; standard randomized splits cause catastrophic look-ahead bias in time-series data.
 
-###Tech Stack
+### Tech Stack
 
 * Python
 * Pandas & NumPy
