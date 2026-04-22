@@ -17,10 +17,6 @@ Perform foundational data inspection and statistical visualization to map featur
     * Petal Length (cm)
     * Petal Width (cm)
 
-### Models Applied
-
-None — exploratory analysis only
-
 ### Execution
 
 * **Data Profiling:** Validated dimensionality and zero null values using Pandas.
