@@ -23,4 +23,7 @@ Perform foundational data inspection and statistical visualization to map featur
     ○ Petal Width (cm)
 
 ### Tech Stack
-  • 
+* Python
+* Pandas
+* MatplotLib
+* Seaborn
