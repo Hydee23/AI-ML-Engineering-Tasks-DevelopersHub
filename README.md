@@ -40,10 +40,10 @@ Forecast the next-day closing price of a selected equity (AAPL) using historical
 
 ### Dataset
 
-* Source: Live market data via the **yfinance API** (OHLCV features).
-* Core Features: Open, High, Low, Close, Volume (OHLCV).
-* Engineered Features: 10-day & 20-day Moving Averages.
-* Target Variable: Next-day percentage return (shifted to prevent data leakage).
+* **Source:** Live market data via the **yfinance API** (OHLCV features).
+* **Core Features:** Open, High, Low, Close, Volume (OHLCV).
+* **Engineered Features:** 10-day & 20-day Moving Averages.
+* **Target Variable:** Next-day percentage return (shifted to prevent data leakage).
 
 ### Execution
 
