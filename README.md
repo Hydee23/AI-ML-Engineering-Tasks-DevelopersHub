@@ -13,7 +13,7 @@ Perform foundational data inspection and statistical visualization to map featur
 
 ### Key Insights
 1.  Strong linear correlation exists between Petal Length and Petal Width.
-2.  *Iris setosa* is linearly separable; *versicolor* and *virginica* share overlapping feature boundaries.
+2.  **Iris setosa** is linearly separable; **versicolor** and **virginica** share overlapping feature boundaries.
 
 ### Tech Stack
 * Python
