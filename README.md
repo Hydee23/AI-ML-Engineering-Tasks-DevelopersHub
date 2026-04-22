@@ -12,10 +12,10 @@ Perform foundational data inspection and statistical visualization to map featur
 
 * Contains botanical attributes for classifying three distinct Iris species. Features include:
 
-**Sepal Length (cm)
-**Sepal Width (cm)
-**Petal Length (cm)
-**Petal Width (cm)
+    * Sepal Length (cm)
+    * Sepal Width (cm)
+    * Petal Length (cm)
+    * Petal Width (cm)
 
 ### Execution
 
