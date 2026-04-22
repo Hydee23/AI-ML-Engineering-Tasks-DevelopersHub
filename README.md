@@ -15,13 +15,6 @@ Perform foundational data inspection and statistical visualization to map featur
 1.  Strong linear correlation exists between Petal Length and Petal Width.
 2.  *Iris setosa* is linearly separable; *versicolor* and *virginica* share overlapping feature boundaries.
 
-• Iris Dataset (Loaded via Seaborn)
-• Contains botanical attributes for classifying three distinct Iris species. Features include:
-    ○ Sepal Length (cm)
-    ○ Sepal Width (cm)
-    ○ Petal Length (cm)
-    ○ Petal Width (cm)
-
 ### Tech Stack
 * Python
 * Pandas
