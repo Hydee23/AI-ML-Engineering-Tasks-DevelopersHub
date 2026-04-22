@@ -79,13 +79,13 @@ Build a conversational AI agent using Prompt Engineering to handle general healt
 * **LLM Engine:** OpenAI API (gpt-3.5-turbo).
 * **Core Logic:** Python CLI with stateful context management.
 
-###Execution
+### Execution
 
 * **Prompt Design:** Built a medical persona with strict negative constraints (no diagnosing or prescribing).
 * **Memory Management:** Engineered a 10-message **"Sliding Window"** to preserve multi-turn context while mathematically preventing API token overflow.
 * **Safety Guardrails:** Embedded routing logic to detect crisis triggers and redirect to human professionals.
 
-###Key Insights
+### Key Insights
 
 * **Negative Constraints:** Explicitly programming what the model cannot do is the primary defense for medical AI liability.
 * **Token Stability:** Infinite memory loops eventually crash APIs; a sliding window is mandatory for production-safe conversational state.
