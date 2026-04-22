@@ -8,7 +8,7 @@ Perform foundational data inspection and statistical visualization to map featur
 
 ### Execution
 
-**Data Profiling:** Validated dimensionality and zero null values using Pandas.
+* **Data Profiling:** Validated dimensionality and zero null values using Pandas.
 * **Visualization:** Mapped correlations via Pair plots and detected IQR outliers via Box plots.
 
 ### Key Insights
