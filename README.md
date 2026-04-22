@@ -22,10 +22,6 @@ Perform foundational data inspection and statistical visualization to map featur
 * **Data Profiling:** Validated dimensionality and zero null values using Pandas.
 * **Visualization:** Mapped correlations via Pair plots and detected IQR outliers via Box plots.
 
-### Result
-
-**RMSE:** $2.74 (model's average prediction error per day)
-
 ### Key Insights
 1.  Strong linear correlation exists between Petal Length and Petal Width.
 2.  **Iris setosa** is linearly separable; **versicolor** and **virginica** share overlapping feature boundaries.
@@ -54,6 +50,10 @@ Forecast the next-day closing price of a selected equity (AAPL) using historical
 * **Data Engineering:** Ingested live API data and engineered moving average features.
 * **Modeling:** Trained a Random Forest Regressor using a strict chronological 80/20 split.
 * **Evaluation:** Assessed model accuracy via RMSE and plotted 1-step forward predictions.
+
+### Result
+
+**RMSE:** $2.74 (model's average prediction error per day)
 
 ### Key Insights
 
