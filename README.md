@@ -4,7 +4,7 @@
 
 ### Objective
 
-Perform foundational data inspection and statistical visualization to map feature distributions before predictive modeling.
+Perform foundational data inspection and statistical visualization to map feature distributions and understand the dataset.
 
 ### Dataset
 
