@@ -31,3 +31,16 @@ Perform foundational data inspection and statistical visualization to map featur
 * Pandas
 * MatplotLib
 * Seaborn
+
+## Task 2: Predict Future Stock Prices (Short-Term)
+
+### Objective
+
+Forecast the next-day closing price of a selected equity (AAPL) using historical market data, moving averages, and machine learning regression techniques.
+
+### Dataset
+
+* Source: Live market data retrieved dynamically via the yfinance API.
+* Core Features: Open, High, Low, Close, Volume (OHLCV).
+* Engineered Features: 10-day and 20-day Moving Averages (MA_10, MA_20).
+* Target Variable: Next-day percentage return (shifted chronologically to prevent data leakage).
