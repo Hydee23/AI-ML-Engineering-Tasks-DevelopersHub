@@ -87,8 +87,8 @@ Build a conversational AI agent using Prompt Engineering to handle general healt
 
 ### Key Insights
 
-* **Negative Constraints:** Explicitly programming what the model cannot do is the primary defense for medical AI liability.
-* **Token Stability:** Infinite memory loops eventually crash APIs; a sliding window is mandatory for production-safe conversational state.
+1. Explicitly programming what the model cannot do is the primary defense for medical AI liability.
+2. Infinite memory loops eventually crash APIs; a sliding window is mandatory for production-safe conversational state.
 
 ### Tech Stack
 
