@@ -1,3 +1,6 @@
 # AI/ML Engineering Tasks (Phase II)
 
 ## 4️⃣ Task 4: Context-Aware Chatbot
+
+### Objective:
+Engineer a Retrieval-Augmented Generation (RAG) conversational agent capable of grounding its responses in a custom vectorized knowledge base while maintaining multi-turn context and a custom UI.
