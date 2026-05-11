@@ -30,3 +30,5 @@ Build a Retrieval-Augmented Generation (RAG) chatbot that grounds responses in a
 * Streamlit
 * FAISS
 * OpenAI API
+
+## 5️⃣ Task 5: Auto Tagging Support Tickets Using LLM
