@@ -3,7 +3,7 @@
 ## 4️⃣ Task 4: Context-Aware Chatbot Using LangChain or RAG
 
 ### Objective:
-Engineer a Retrieval-Augmented Generation (RAG) conversational agent capable of grounding its responses in a custom vectorized knowledge base while maintaining multi-turn context and a custom UI.
+Build a Retrieval-Augmented Generation (RAG) chatbot that grounds responses in a custom vectorized knowledge base while maintaining multi-turn context.
 
 ### Architecture:
 
@@ -14,15 +14,15 @@ Engineer a Retrieval-Augmented Generation (RAG) conversational agent capable of 
 
 ### Execution:
 
-* Implemented dynamic document parsing (PDF/Text) and chunking via RecursiveCharacterTextSplitter to optimize context windows.
-* Engineered a semantic search mechanism using OpenAI Embeddings to inject the most relevant document chunks into the LLM context.
-* Bypassed native Streamlit chat components, utilizing unsafe_allow_html to inject a highly customized HTML/CSS chat interface.
-* Designed a robust memory engine utilizing st.session_state to decouple conversational memory from Streamlit’s execution loop, preventing state-loss.
+* Chunked and vectorized documents using RecursiveCharacterTextSplitter and OpenAI Embeddings.
+* Injected relevant document chunks into the LLM context using FAISS similarity search.
+* Built a custom HTML/CSS chat interface using Streamlit's unsafe_allow_html.
+* Decoupled conversational memory from Streamlit’s rerun loop using st.session_state.
 
 ### Key Insights:
 
-* Streamlit reruns the script on every interaction; explicitly vaulting the conversational array inside session state is mandatory to prevent history wiping.
-* Decoupling the data ingestion pipeline from the frontend UI prevents redundant API calls and vectorization loops, dropping compute costs and load times.
+* Streamlit reruns scripts on every interaction; vaulting chat history inside session state prevents data loss.
+* Separating data ingestion from the frontend UI prevents redundant API calls and lowers compute costs.
 
 ### Tech Stack:
 * Python
