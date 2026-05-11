@@ -7,7 +7,7 @@ Engineer a Retrieval-Augmented Generation (RAG) conversational agent capable of 
 
 ### Architecture:
 
-* UI/Deployment: Streamlit (with Custom HTML/CSS Injection)
-* Orchestration: LangChain
-* Storage: FAISS (In-Memory Vector Database)
-* LLM Engine: OpenAI API
+* UI/Deployment: Streamlit (with Custom HTML/CSS Injection).
+* Orchestration: LangChain.
+* Storage: FAISS (In-Memory Vector Database).
+* LLM Engine: OpenAI API.
