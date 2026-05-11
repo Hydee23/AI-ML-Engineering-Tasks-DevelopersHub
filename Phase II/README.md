@@ -13,7 +13,7 @@ Engineer a Retrieval-Augmented Generation (RAG) conversational agent capable of 
 
 ### Execution:
 
-* **Data Ingestion:** Implemented dynamic document parsing (PDF/Text) and chunking via RecursiveCharacterTextSplitter to optimize context windows.
-* **Retrieval Pipeline:** Engineered a semantic search mechanism using OpenAI Embeddings to inject the most relevant document chunks into the LLM context.
-* **UI Engineering:** Bypassed native Streamlit chat components, utilizing unsafe_allow_html to inject a highly customized HTML/CSS chat interface.
-* **State Management:** Designed a robust memory engine utilizing st.session_state to decouple conversational memory from Streamlit’s execution loop, preventing state-loss.
+* Implemented dynamic document parsing (PDF/Text) and chunking via RecursiveCharacterTextSplitter to optimize context windows.
+* Engineered a semantic search mechanism using OpenAI Embeddings to inject the most relevant document chunks into the LLM context.
+* Bypassed native Streamlit chat components, utilizing unsafe_allow_html to inject a highly customized HTML/CSS chat interface.
+* Designed a robust memory engine utilizing st.session_state to decouple conversational memory from Streamlit’s execution loop, preventing state-loss.
