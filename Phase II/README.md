@@ -3,7 +3,7 @@
 ## 4️⃣ Task 4: Context-Aware Chatbot Using LangChain or RAG
 
 ### Objective:
-Build a Retrieval-Augmented Generation (RAG) chatbot that grounds responses in a custom vectorized knowledge base while maintaining multi-turn context.
+Build a Retrieval-Augmented Generation (RAG) chatbot that grounds responses in a custom vectorized knowledge base.
 
 ### Architecture:
 
