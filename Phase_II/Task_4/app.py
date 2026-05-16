@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -20,8 +21,13 @@ selected_model = render_sidebar()
 @st.cache_resource
 def load_retriever():
     embeddings = OpenAIEmbeddings()
+    
+    # Get the absolute path of the directory where app.py lives
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    vectorstore_path = os.path.join(current_dir, "vectorstore")
+    
     vectorstore = FAISS.load_local(
-        "vectorstore", embeddings, allow_dangerous_deserialization=True
+        vectorstore_path, embeddings, allow_dangerous_deserialization=True
     )
     return vectorstore.as_retriever(search_kwargs={"k": 3})
 
