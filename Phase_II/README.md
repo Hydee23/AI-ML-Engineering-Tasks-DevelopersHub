@@ -1,4 +1,6 @@
-# 2️⃣ End-to-End ML Pipeline with Scikit-learn Pipeline API
+# 2️⃣ Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API
+
+
 
 # 4️⃣ Task 4: Context-Aware Chatbot Using LangChain or RAG
 
