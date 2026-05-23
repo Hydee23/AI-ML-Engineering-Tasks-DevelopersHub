@@ -1,5 +1,25 @@
 # 2️⃣ Task 2: End-to-End ML Pipeline with Scikit-learn Pipeline API
 
+## Objective
+Build a reusable and production-ready machine learning pipeline for predicting customer churn using the Telco Churn Dataset.
+
+## Architecture
+* Preprocessing Engine: Scikit-learn Pipeline integrating StandardScaler (numerical) and OneHotEncoder (categorical).
+* Modeling Core: Interchangeable Logistic Regression and Random Forest classifiers.
+* Optimization: GridSearchCV for automated hyperparameter tuning across multiple algorithms.
+
+## Execution
+* Implemented robust data preprocessing steps encapsulated entirely within a Pipeline to prevent look-ahead bias.
+* Trained and evaluated Logistic Regression and Random Forest models simultaneously.
+* Optimized model parameters using cross-validation via GridSearchCV to maximize predictive accuracy.
+* Exported the complete, production-ready pipeline and preprocessing steps as a serialized artifact using joblib.
+
+## Key Insights
+1. Encapsulating scaling and encoding within the Scikit-learn Pipeline is mandatory to prevent data leakage during cross-validation.
+2. Serializing the entire pipeline (not just the model) ensures raw production data is preprocessed exactly like the training data.
+
+## Tech Stack
+Python | Scikit-learn | Pandas | NumPy | Joblib
 
 
 # 4️⃣ Task 4: Context-Aware Chatbot Using LangChain or RAG
