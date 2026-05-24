@@ -45,3 +45,26 @@ Build a RAG-powered AI assistant strictly scoped to answering domain-specific qu
 Python | Streamlit | LangChain | FAISS | OpenAI API (GPT-4o-Mini)
 
 # 5️⃣ Task 5: Auto Tagging Support Tickets Using LLM
+
+## Objective
+Automatically classify free-text support tickets into relevant categories using an LLM, comparing zero-shot and few-shot prompting techniques.
+
+## Architecture
+
+* Prompt Engine: Zero-shot and few-shot strategies built in prompts.py
+* Classification Core: GPT-3.5-turbo returns top 3 tags per ticket from a predefined category set
+* Comparison Layer: Both approaches run simultaneously, results saved to results/output.csv
+
+## Execution
+* Implemented zero-shot prompting — model classifies with no prior examples
+* Implemented few-shot prompting — model given 5 labeled examples before classifying
+* Compared both approaches across 10 sample tickets, measuring tag agreement
+* Built a Streamlit UI with single and batch classification modes
+
+# Key Insights
+1. Few-shot produces more grounded tags by anchoring the model to domain-specific examples
+2. Zero-shot is faster and cheaper, but occasionally misses nuanced tags
+3. Fine-tuning was replaced with few-shot learning as a cost-effective alternative
+
+## Tech Stack
+Python | OpenAI API | Streamlit | Pandas | Prompt Engineering
