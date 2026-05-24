@@ -14,5 +14,5 @@ This repository contains all projects completed during the DevHub Corp internshi
 * Task 4 — Context-aware RAG chatbot using LangChain, FAISS, and Streamlit
 * Task 5 — Support ticket auto-tagger using zero-shot and few-shot LLM prompting
 
-Tech Stack
+## Tech Stack
 Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn | yfinance | OpenAI API | LangChain | FAISS | Streamlit | FastAPI | Uvicorn | Pydantic | Joblib | Wikipedia API | Prompt Engineering | RAG | Zero-Shot & Few-Shot Learning
