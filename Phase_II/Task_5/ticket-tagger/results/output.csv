@@ -1,0 +1,11 @@
+ticket,zero_shot_tags,few_shot_tags,tags_match
+I was charged $99 but I only signed up for the $49 plan. Please refund the difference.,"Billing Issue, Refund Request, Customer Complaint","Billing Issue, Refund Request, Customer Complaint",True
+My app keeps crashing every time I try to open it on my iPhone.,"Technical Support, Escalation Required, Product Inquiry","Technical Support, Escalation Required, Customer Complaint",False
+Someone logged into my account from a different country. I need this investigated immediately.,"Account Access, Security Concern, Escalation Required","Account Access, Security Concern, Escalation Required",True
+The wifi router you sent me is not working. I've tried resetting it multiple times.,"Technical Support, Network Issue, Escalation Required","Technical Support, Network Issue, Refund Request",False
+I've been waiting 3 weeks for my order. The tracking page says delivered but I got nothing.,"Shipping & Delivery, Customer Complaint, Escalation Required","Shipping & Delivery, Customer Complaint, Refund Request",False
+Can you explain what features come with the enterprise plan?,"Product Inquiry, Technical Support, Account Access","Product Inquiry, Billing Issue, Technical Support",False
+I want to cancel my subscription and get a full refund for this month.,"Refund Request, Billing Issue, Account Access","Billing Issue, Refund Request, Customer Complaint",False
+Your customer service rep was extremely rude to me on the call yesterday.,"Customer Complaint, Escalation Required, Security Concern","Customer Complaint, Escalation Required, Security Concern",True
+I forgot my password and the reset email is not arriving.,"Account Access, Technical Support, Security Concern","Account Access, Technical Support, Security Concern",True
+My connection keeps dropping every 30 minutes. I've already restarted the router.,"Technical Support, Network Issue, Escalation Required","Network Issue, Technical Support, Escalation Required",False
