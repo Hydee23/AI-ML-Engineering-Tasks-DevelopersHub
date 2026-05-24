@@ -61,7 +61,7 @@ Automatically classify free-text support tickets into relevant categories using 
 * Compared both approaches across 10 sample tickets, measuring tag agreement
 * Built a Streamlit UI with single and batch classification modes
 
-# Key Insights
+## Key Insights
 1. Few-shot produces more grounded tags by anchoring the model to domain-specific examples
 2. Zero-shot is faster and cheaper, but occasionally misses nuanced tags
 3. Fine-tuning was replaced with few-shot learning as a cost-effective alternative
